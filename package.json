@@ -10,13 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/cyclic-software/starter-express-api.git"
   },
-  "author": "",
+  "author": "Manjari Agarwal",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cyclic-software/starter-express-api/issues"
   },
   "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "@azure/storage-blob": "^12.17.0",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "fs": "^0.0.1-security"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
